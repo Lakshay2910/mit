@@ -1,0 +1,25 @@
+ body
+ {
+   background-color: #FFFFFF;
+   padding-left: 40pt;
+   padding-right: 40pt;
+   zoom: 125%;
+ }
+ h1
+ {
+   color: #333333;
+   font-family: Arial;
+   font-size: 30pt;
+   text-align: center;
+ }
+
+ p,dd 
+ {
+   text-align: justify;
+ }
+
+
+ li 
+ {
+   margin-bottom: 10px; /* Adjust this value to set the desired distance between list items */  
+ }

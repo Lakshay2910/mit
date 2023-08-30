@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Forms of College</title>
+<style>
+    body
+    {
+        padding-left: 20pt;
+    }
+    #signcenter
+    {
+        padding-top: 5pt;
+        padding-left: 38pt;
+    }
+</style>
+</head>
+<body bgcolor="#f5deb3">
+
+<h1 align="left">College Fees Payment Form</h1><hr>
+
+<form align="left">
+<label for="username">Student's Name: </label><br>
+<input type="text" name="username" id="username"><br><br>
+
+<label for="email">Email: </label><br>
+<input type="email" name="email" id="email"><br><br>
+
+<label for="Phone">Phone Number: </label><br>
+<input type="number" name="Phone" id="Phone"><br><br>
+
+<label for="Student's ID">Student's ID:</label><br>
+<input type="text" name="Student's ID" id="Student's ID"><br><br>
+
+<label for="course">Course/Program name: </label><br>
+<input type="text" name="course" id="course"><br><br>
+
+<label for="Year">Year of study:</label><br>
+<input type="number" name="Year" id="Year"><br><br>
+
+Select what fee/s you want to pay: <br>
+<input type="radio" value="Admission fee" name="Fees Type" id="Admission fee"> 
+<label for="Admission fee"> Admission fee</label> <br>
+
+<input type="radio" value="Exam fee" name="Fees Type" id="Exam fee">
+<label for="Exam fee"> Exam fee</label> <br>
+
+<input type="radio" value="Tuition fee" name="Fees Type" id="Tuition fee">
+<label for="Tuition fee"> Tuition fee</label> <br><br>
+
+Payment method: <br>
+<input type="radio" value="Cash" name="Payment Method" id="Cash">
+<label for="Cash"> Cash</label><br>
+
+<input type="radio" value="Bank transfer" name="Payment Method" id="Bank transfer"> 
+<label for="Bank transfer"> Bank transfer</label><br>
+
+<input type="radio" value="PayPal" name="Payment Method" id="PayPal"> 
+<label for="PayPal"> PayPal</label><br><br>
+
+<label for="signature">Upload your Signature</label><br>
+<input type="file" name="signature" value="signature" id="signature"><br>
+
+<div id="signcenter"><label for="signature"><img src ="Photos/Signature.png" width="75"></label></div> <br>
+
+<label for="date">Date:</label><br>
+<input type ="date" name="date" id="date"><br><br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+
+</form>
+
+
+</body>
+</html>
